@@ -1,0 +1,177 @@
+* {
+	margin:0;
+	padding:0;
+}
+* {
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+header {
+	/*background-color: #FFFFEE;*/
+	position: relative;
+	width:100%;
+}
+a {
+	text-decoration:none;
+	color:black; 
+}
+.title{
+ 	width: 100%;
+
+}
+h1 {
+	/*background-color: #C0C0C0;*/
+	float: left;
+	width: 1000px;
+	line-height: 80px;
+	letter-spacing:10px;
+	color:black;
+	text-decoration: none;
+	padding: 100px ;
+	text-align: center;
+	font-size: 60px;
+ 	/*font-weight: lighter;
+ 	text-shadow: 6px 6px 0 rgba(0,0,0,.2)*/
+ 	font-family: 'Comfortaa', cursive;
+	
+}
+
+.top-menu {
+	/*background-color: #FF99FF;*/
+	float: right;
+	list-style: none;
+	text-align: center;
+	display:block;
+	/*position: absolute;*/
+	/*bottom: 0;*/
+	/*right: 0;*/
+
+}
+.top-menu-item {
+	font-family: 'Lobster', cursive;
+	float:left;
+	width: 100px;
+	line-height: 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.menu-icon {
+	display: none;
+}
+
+
+hr{
+	border-top:1px solid #C0C0C0;
+
+}
+/*ハンバーガーボタン*/
+.hum-btn{
+	display: none;
+}
+
+/*ここからabout*/
+
+.about-wrapper{
+	width: 100%;
+}
+.about-heading {
+	text-align: center;
+	font-size:40px;
+	margin-top:80px; 
+	margin-bottom:30px;
+
+}
+h3 {
+	font-family: 'Shadows Into Light Two', cursive;
+	
+}
+.tbox{
+	/*background-color: #ff99cc;*/
+	float: left;
+	width: 100%;
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+.tbox-left{
+	display: inline-block;
+	margin-bottom: 40px;
+}
+img {
+	width: 270px;
+	height:200px;
+	border: 2px solid gray;
+	border-radius: 10px;
+	background-position: center;
+	float: left;
+
+}
+/*tableタグの場合*/
+/*.me{
+	margin: 50px;
+	float: right;
+}
+table td{
+	text-align: left;
+	font-size: 20px;
+	padding-right: 50px;
+	background-color: #e5ccff;
+}*/
+.tbox-right{
+	display: inline-block;
+	margin-left: 30px;
+
+}
+dl{
+	font-size: 15px;
+	width: 100%;
+	margin-right: 200px;
+}
+dt{
+	/*background-color: #9999ff;*/
+	font-weight: bold;
+	float: left;
+	width: 20%;
+	text-align: left;
+	display: block;
+	margin-bottom: 20px;
+
+
+}
+dd{
+	/*background-color: #ffffcc;*/
+	width: 100%;
+	display: block;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+footer{
+	width: 100%;
+}
+
+.footer-menu {
+	/*background-color: #FF99FF;*/
+	float: left;
+	list-style: none;
+	text-align: center;
+	margin-bottom: 80px;
+}
+.footer-menu-item {
+	font-family: 'Lobster', cursive;
+	float:left;
+	width: 100px;
+	line-height: 20px;
+}
+

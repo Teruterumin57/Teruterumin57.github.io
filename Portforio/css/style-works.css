@@ -11,9 +11,11 @@
 	display: block;
 	clear: both;
 }
+
 .container {
-	max-width:100%;
+	max-width: 960px;
 	margin: 0 auto;
+	width: 100%;
 }
 
 }
@@ -76,20 +78,17 @@ hr{
 
 }
 
+/*ハンバーガーボタン*/
+.hum-btn{
+	display: none;
+}
+
 .works-wrapper {
 	/*background-color:#99CC99;*/
 	width: 100%;
 }
-.container {
-	/*width:100%;
-*/
-}
-.work {
-	/*float:left;*/
-	width:100%;
-	margin-top: 60px;
-	margin-bottom: 60px;
-}
+
+
 .works-heading {
 	text-align: center;
 	font-size:40px;
@@ -100,6 +99,11 @@ hr{
 h3 {
 	font-family: 'Shadows Into Light Two', cursive;
 }
+
+.work{
+	margin-bottom: 60px;
+}
+
 .work img {
 	width:300px;
 	height:200px;

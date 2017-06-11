@@ -11,12 +11,14 @@
 	display: block;
 	clear: both;
 }
+
 .container {
-	max-width:100%;
+	max-width: 960px;
 	margin: 0 auto;
+	width: 100%;
 }
 
-}
+
 header {
 	/*background-color: #FFFFEE;*/
 	position: relative;
@@ -46,28 +48,63 @@ h1 {
 	font-family: 'Comfortaa', cursive;
 
 }
+
+.top-menu {
+	/*background-color: #FF99FF;*/
+	float: right;
+	list-style: none;
+	text-align: center;
+	display:block;
+	/*position: absolute;*/
+	/*bottom: 0;*/
+	/*right: 0;*/
+
+}
+.top-menu-item {
+	font-family: 'Lobster', cursive;
+	float:left;
+	width: 100px;
+	line-height: 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.menu-icon {
+	display: none;
+}
 hr{
 	border-top:1px solid #C0C0C0;
 
 }
 
+/*ハンバーガーボタン*/
+.hum-btn{
+	display: none;
+}
 
 .blog-wrapper {
 	/*background-color:#99CCFF;*/
 	margin-bottom: 80px;
 	width:100%; 
 }
-.blog {
-	/*float:left;*/
-	display: block;
-	width:100%; 
-}
+
 .blog-heading {
 	text-align: center;
-	font-size:30px;
+	font-size:40px;
 	margin-top:80px; 
 	margin-bottom:30px;
 }
+
+h3 {
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+
+.blog {
+	/*float:left;*/
+	width:100%;
+	margin-bottom: 100px;
+}
+
 .blog p {
 	/*background-color:#CC66FF;*/
 	text-align: center;

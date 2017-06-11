@@ -3,31 +3,46 @@
 <head>
 	<meta charset="utf-8">
 	<title>TERUMI Portforio</title>
-	<link rel="stylesheet" type="text/css" href=css/style-contact.css>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/responsive-top.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/drawer.min.css">
+	<link rel="stylesheet" type="text/css" href=css/style-contact.css>
+	<link rel="stylesheet" type="text/css" href="css/responsive-top.css">
 	<link href="https://fonts.googleapis.com/css?family=Comfortaa|Kalam:700|Lobster|Shadows+Into+Light+Two|YuGothic" rel="stylesheet">
 </head>
 
-<body>
+<body class="drawer drawer--right">
 	<header class="clearfix container" >
 		<h1 class="title"><a href="index-top.html">TERUMI's town</a></h1>
 		<ul class="top-menu">
-			<li class="top-menu-item"><a href="#">About</a></li>
+			<li class="top-menu-item"><a href="index-about.html">About</a></li>
 			<li class="top-menu-item"><a href="index-works.html">Works</a></li>
 			<li class="top-menu-item"><a href="index-blog.html">Blog</a></li>
 			<li class="top-menu-item"><a href="index-contact.html">Contact</a></li>	
-		</ul>ß
-		<a href="#" class="menu-icon">
+		</ul>
+		<!-- <a href="#" class="menu-icon">
 			<i class="fa fa-bars" aria-hidden="true"></i>
-		</a>
+		</a> -->
 	</header>
-
+		<!-- ハンバーガーボタン -->
+<button type="button" class="drawer-toggle drawer-hamburger hum-btn">
+  <span class="sr-only">toggle navigation</span>
+  <span class="drawer-hamburger-icon"></span>
+</button>
+ 
+<nav class="drawer-nav">
+  <ul class="drawer-menu">
+    <!-- ドロワーメニューの中身 -->
+    <li><a href="index-about.html">About</a></li>
+	<li><a href="index-works.html">Works</a></li>
+	<li><a href="index-blog.html">Blog</a></li>
+	<li><a href="index-contact.html">Contact</a></li>	
+  </ul>
+</nav>
 	<div class="contact-wrapper">
 		<div class="contakt-form">
 
-			<h3>contact</h3>
+			<h3>CONTACT</h3>
 			<hr>
 			<p class="section-tytle">お問い合わせはお気軽にこちらへどうぞ。<br>
 			下記フォームよりわかる範囲でご記入ください。必須の項目は必ずご記入お願いします。</p>
@@ -39,8 +54,9 @@
 				<input>
 			<p>お問い合わせ内容（必須）</p>
 				<textarea></textarea>
-			
-				<input class="contact-submit" type="submit" value="内容を送信する">
+			<div class="contact-submit">
+			<input  type="submit" value="内容を送信する">
+			</div>
 		</div>
 		
 	</div>
@@ -50,7 +66,7 @@
 		<div class="container box_con　panel">
 		<div class="yajirushi"></div>
 		<ul class="footer-menu row">
-			<li class="footer-menu-item data"><a href="#">About</a></li>
+			<li class="footer-menu-item data"><a href="index-about.html">About</a></li>
 			<li class="footer-menu-item data"><a href="index-works.html">Works</a></li>
 			<li class="footer-menu-item data"><a href="index-blog.html">Blog</a></li>
 			<li class="footer-menu-item data"><a href="index-contact.html">Contact</a></li>	
@@ -58,6 +74,9 @@
 
 		</div>
 	</footer>
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="js/drawer.min.js"></script>
+	<script src="js/iscroll.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>

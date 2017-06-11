@@ -1,7 +1,14 @@
 /*スマホ向け*/
 @media(max-width: 670px ){
+.sp-none{
+	display: none;
+}
 
-
+.container {
+	max-width:100%;
+	margin: 0 auto;
+	/*width: 960px;*/
+}
 
 
 h1 {
@@ -19,17 +26,48 @@ h1 {
 	margin:0 45%;
 }
 
+.hum-btn{
+	display: block;
+
+}
+.drawer-menu{
+	border-top: 1px solid #808080;
+	border-left:1px solid #808080;
+}
+.drawer-menu li{
+	border-right: 1px solid #808080;
+	border-bottom: 1px solid #808080;
+	text-align: center;
+}
+.drawer-menu a{
+	/*color: green;*/
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	line-height: 40px;
+}
+
+.tbox-right{
+	margin: 10px 10px 10px 20px;
+
+}
+
+dl{
+	font-size: 13px;
+}
+dt{
+	width: 20%;
+}
 
 
 .work{
 	width: 100%;
-	margin-bottom: 30px;
+	margin-bottom: 80px;
 }
 
 
 .blog{
 	width: 100%;
-	margin-bottom: 30px;
+	/*margin-bottom: 60px;*/
 }
 
 .box_con{
@@ -54,8 +92,8 @@ h1 {
 	/*線の重なりを回避*/
 	
 }
-/*.panel .row .data{
-	display: table-cell;*/  inline-block から変更 
+/*.panel .row .data{*/
+	/*display: table-cell;  inline-block から変更 */
   	/*border: 1px solid;
   	width: 5rem;
   	border: 1px solid;
@@ -63,8 +101,13 @@ h1 {
 
 }
 
-
-
+input,textarea{
+	width: 90%;
+}
+.contact-submit{
+	margin: 0 auto;
+	width:90%;
+}
 
 
 
